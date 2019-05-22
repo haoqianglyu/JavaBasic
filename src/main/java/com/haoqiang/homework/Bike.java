@@ -1,4 +1,4 @@
-package com.haoqiang.homework_May22;
+package com.haoqiang.homework;
 
 public class Bike {
     public String wheelShape;

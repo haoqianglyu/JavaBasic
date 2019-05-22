@@ -1,4 +1,4 @@
-package com.haoqiang.homework_May22;
+package com.haoqiang.homework;
 
 public class Motorcycle extends Bike{
 
@@ -8,9 +8,7 @@ public class Motorcycle extends Bike{
 
     public Motorcycle(String wheelShape, int wheelNum, String seatShape,
                       int pedalNum, String gasTank, String motor){
-        this.wheelShape = wheelShape;
-        this.wheelNum = wheelNum;
-        this.seatShape = seatShape;
+        super(wheelShape,wheelNum,wheelShape);
         this.pedalNum = pedalNum;
         this.gasTank = gasTank;
         this.motor = motor;

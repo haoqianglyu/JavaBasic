@@ -1,4 +1,4 @@
-package com.haoqiang.homework_May22;
+package com.haoqiang.homework;
 
 public class Bicycle extends Bike{
     public int pedalNum;
@@ -12,10 +12,9 @@ public class Bicycle extends Bike{
     }
 
     public Bicycle(String wheelShape,int wheelNum,String seatShape,int pedalNum){
-        this.wheelShape = wheelShape;
-        this.wheelNum = wheelNum;
-        this.seatShape = seatShape;
+        super(wheelShape,wheelNum,seatShape);
         this.pedalNum = pedalNum;
+        //jjjjj
     }
 
     public String toString(){
