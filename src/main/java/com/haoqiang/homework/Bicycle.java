@@ -14,7 +14,7 @@ public class Bicycle extends Bike{
     public Bicycle(String wheelShape,int wheelNum,String seatShape,int pedalNum){
         super(wheelShape,wheelNum,seatShape);
         this.pedalNum = pedalNum;
-        //jjjjj
+        
     }
 
     public String toString(){
