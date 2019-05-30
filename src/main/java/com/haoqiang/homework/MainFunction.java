@@ -6,6 +6,7 @@ public class MainFunction {
     public static void main(String[] args) {
         Bike bike = new Bike("round",2,"triangle");
         System.out.println(bike.toString());
+        System.out.println(bike);
 
         Bicycle bicycle = new Bicycle("round",2,"triangle",2);
         System.out.println(bicycle.toString());
